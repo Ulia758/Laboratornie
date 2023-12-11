@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище DATABASE1Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Spravochnaya">
+          <Key>
+            <PropertyRef Name="Tabelnyi_nomer" />
+          </Key>
+          <Property Name="Tabelnyi_nomer" Type="int" Nullable="false" />
+          <Property Name="Familia" Type="nvarchar" MaxLength="50" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+          <Property Name="Otchestvo" Type="nvarchar" MaxLength="50" />
+          <Property Name="Data_rod" Type="date" />
+        </EntityType>
+        <EntityType Name="Uchetnaya">
+          <Key>
+            <PropertyRef Name="Nomer_zapisi" />
+          </Key>
+          <Property Name="Nomer_zapisi" Type="int" Nullable="false" />
+          <Property Name="Tabelnyi_nomer" Type="int" Nullable="false" />
+          <Property Name="Month" Type="int" />
+          <Property Name="Oklad" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="Procent_oplaty" Type="decimal" Precision="18" Scale="0" />
+        </EntityType>
+        <Association Name="FK_Uchetnaya_Spravochnaya">
+          <End Role="Spravochnaya" Type="Self.Spravochnaya" Multiplicity="1" />
+          <End Role="Uchetnaya" Type="Self.Uchetnaya" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Spravochnaya">
+              <PropertyRef Name="Tabelnyi_nomer" />
+            </Principal>
+            <Dependent Role="Uchetnaya">
+              <PropertyRef Name="Tabelnyi_nomer" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище DATABASE1ModelContainer">
+          <EntitySet Name="Spravochnaya" EntityType="Self.Spravochnaya" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Uchetnaya" EntityType="Self.Uchetnaya" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Uchetnaya_Spravochnaya" Association="Self.FK_Uchetnaya_Spravochnaya">
+            <End Role="Spravochnaya" EntitySet="Spravochnaya" />
+            <End Role="Uchetnaya" EntitySet="Uchetnaya" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DATABASE1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Spravochnaya">
+          <Key>
+            <PropertyRef Name="Tabelnyi_nomer" />
+          </Key>
+          <Property Name="Tabelnyi_nomer" Type="Int32" Nullable="false" />
+          <Property Name="Familia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Otchestvo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Data_rod" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="Uchetnaya" Relationship="Self.FK_Uchetnaya_Spravochnaya" FromRole="Spravochnaya" ToRole="Uchetnaya" />
+        </EntityType>
+        <EntityType Name="Uchetnaya">
+          <Key>
+            <PropertyRef Name="Nomer_zapisi" />
+          </Key>
+          <Property Name="Nomer_zapisi" Type="Int32" Nullable="false" />
+          <Property Name="Tabelnyi_nomer" Type="Int32" Nullable="false" />
+          <Property Name="Month" Type="Int32" />
+          <Property Name="Oklad" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="Procent_oplaty" Type="Decimal" Precision="18" Scale="0" />
+          <NavigationProperty Name="Spravochnaya" Relationship="Self.FK_Uchetnaya_Spravochnaya" FromRole="Uchetnaya" ToRole="Spravochnaya" />
+        </EntityType>
+        <Association Name="FK_Uchetnaya_Spravochnaya">
+          <End Role="Spravochnaya" Type="Self.Spravochnaya" Multiplicity="1" />
+          <End Role="Uchetnaya" Type="Self.Uchetnaya" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Spravochnaya">
+              <PropertyRef Name="Tabelnyi_nomer" />
+            </Principal>
+            <Dependent Role="Uchetnaya">
+              <PropertyRef Name="Tabelnyi_nomer" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DATABASE1Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Spravochnaya" EntityType="Self.Spravochnaya" />
+          <EntitySet Name="Uchetnaya" EntityType="Self.Uchetnaya" />
+          <AssociationSet Name="FK_Uchetnaya_Spravochnaya" Association="Self.FK_Uchetnaya_Spravochnaya">
+            <End Role="Spravochnaya" EntitySet="Spravochnaya" />
+            <End Role="Uchetnaya" EntitySet="Uchetnaya" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище DATABASE1ModelContainer" CdmEntityContainer="DATABASE1Entities">
+          <EntitySetMapping Name="Spravochnaya">
+            <EntityTypeMapping TypeName="DATABASE1Model.Spravochnaya">
+              <MappingFragment StoreEntitySet="Spravochnaya">
+                <ScalarProperty Name="Tabelnyi_nomer" ColumnName="Tabelnyi_nomer" />
+                <ScalarProperty Name="Familia" ColumnName="Familia" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Otchestvo" ColumnName="Otchestvo" />
+                <ScalarProperty Name="Data_rod" ColumnName="Data_rod" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Uchetnaya">
+            <EntityTypeMapping TypeName="DATABASE1Model.Uchetnaya">
+              <MappingFragment StoreEntitySet="Uchetnaya">
+                <ScalarProperty Name="Nomer_zapisi" ColumnName="Nomer_zapisi" />
+                <ScalarProperty Name="Tabelnyi_nomer" ColumnName="Tabelnyi_nomer" />
+                <ScalarProperty Name="Month" ColumnName="Month" />
+                <ScalarProperty Name="Oklad" ColumnName="Oklad" />
+                <ScalarProperty Name="Procent_oplaty" ColumnName="Procent_oplaty" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram DiagramId="6af435b2e7b74e8486bc779610e7e7f9" Name="Diagram1">
+        <EntityTypeShape EntityType="DATABASE1Model.Spravochnaya" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE1Model.Uchetnaya" Width="1.5" PointX="3.375" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="DATABASE1Model.FK_Uchetnaya_Spravochnaya" ManuallyRouted="true" >
+          <ConnectorPoint PointX="2.25" PointY="1.8987939453124998" />
+          <ConnectorPoint PointX="3.375" PointY="1.8987939453124998" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

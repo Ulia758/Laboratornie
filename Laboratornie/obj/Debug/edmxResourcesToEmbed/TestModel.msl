@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище DATABASE1ModelContainer" CdmEntityContainer="DATABASE1Entities">
+    <EntitySetMapping Name="Spravochnaya">
+      <EntityTypeMapping TypeName="DATABASE1Model.Spravochnaya">
+        <MappingFragment StoreEntitySet="Spravochnaya">
+          <ScalarProperty Name="Tabelnyi_nomer" ColumnName="Tabelnyi_nomer" />
+          <ScalarProperty Name="Familia" ColumnName="Familia" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Otchestvo" ColumnName="Otchestvo" />
+          <ScalarProperty Name="Data_rod" ColumnName="Data_rod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Uchetnaya">
+      <EntityTypeMapping TypeName="DATABASE1Model.Uchetnaya">
+        <MappingFragment StoreEntitySet="Uchetnaya">
+          <ScalarProperty Name="Nomer_zapisi" ColumnName="Nomer_zapisi" />
+          <ScalarProperty Name="Tabelnyi_nomer" ColumnName="Tabelnyi_nomer" />
+          <ScalarProperty Name="Month" ColumnName="Month" />
+          <ScalarProperty Name="Oklad" ColumnName="Oklad" />
+          <ScalarProperty Name="Procent_oplaty" ColumnName="Procent_oplaty" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

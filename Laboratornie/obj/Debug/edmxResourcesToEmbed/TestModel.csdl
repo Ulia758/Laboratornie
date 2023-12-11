@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DATABASE1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Spravochnaya">
+    <Key>
+      <PropertyRef Name="Tabelnyi_nomer" />
+    </Key>
+    <Property Name="Tabelnyi_nomer" Type="Int32" Nullable="false" />
+    <Property Name="Familia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Otchestvo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Data_rod" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Uchetnaya" Relationship="Self.FK_Uchetnaya_Spravochnaya" FromRole="Spravochnaya" ToRole="Uchetnaya" />
+  </EntityType>
+  <EntityType Name="Uchetnaya">
+    <Key>
+      <PropertyRef Name="Nomer_zapisi" />
+    </Key>
+    <Property Name="Nomer_zapisi" Type="Int32" Nullable="false" />
+    <Property Name="Tabelnyi_nomer" Type="Int32" Nullable="false" />
+    <Property Name="Month" Type="Int32" />
+    <Property Name="Oklad" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Procent_oplaty" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="Spravochnaya" Relationship="Self.FK_Uchetnaya_Spravochnaya" FromRole="Uchetnaya" ToRole="Spravochnaya" />
+  </EntityType>
+  <Association Name="FK_Uchetnaya_Spravochnaya">
+    <End Role="Spravochnaya" Type="Self.Spravochnaya" Multiplicity="1" />
+    <End Role="Uchetnaya" Type="Self.Uchetnaya" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Spravochnaya">
+        <PropertyRef Name="Tabelnyi_nomer" />
+      </Principal>
+      <Dependent Role="Uchetnaya">
+        <PropertyRef Name="Tabelnyi_nomer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DATABASE1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Spravochnaya" EntityType="Self.Spravochnaya" />
+    <EntitySet Name="Uchetnaya" EntityType="Self.Uchetnaya" />
+    <AssociationSet Name="FK_Uchetnaya_Spravochnaya" Association="Self.FK_Uchetnaya_Spravochnaya">
+      <End Role="Spravochnaya" EntitySet="Spravochnaya" />
+      <End Role="Uchetnaya" EntitySet="Uchetnaya" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

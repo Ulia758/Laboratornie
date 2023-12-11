@@ -1,0 +1,137 @@
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Laboratornie.csproj.AssemblyReference.cache
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Laboratornie.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Change.g.cs
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Filtr.g.cs
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\MainPage.g.cs
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\MainWindow.g.cs
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Poisk.g.cs
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Sortirovka.g.cs
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Sprav.g.cs
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Uchet.g.cs
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Vicheslenia.g.cs
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\App.g.cs
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Laboratornie_Content.g.cs
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Laboratornie_MarkupCompile.cache
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Laboratornie_MarkupCompile.lref
+C:\Users\student\Documents\Laboratornie\Laboratornie\bin\Debug\Database1.mdf
+C:\Users\student\Documents\Laboratornie\Laboratornie\bin\Debug\Database1_log.ldf
+C:\Users\student\Documents\Laboratornie\Laboratornie\bin\Debug\Laboratornie.exe.config
+C:\Users\student\Documents\Laboratornie\Laboratornie\bin\Debug\Laboratornie.exe
+C:\Users\student\Documents\Laboratornie\Laboratornie\bin\Debug\Laboratornie.pdb
+C:\Users\student\Documents\Laboratornie\Laboratornie\bin\Debug\EntityFramework.dll
+C:\Users\student\Documents\Laboratornie\Laboratornie\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student\Documents\Laboratornie\Laboratornie\bin\Debug\EntityFramework.xml
+C:\Users\student\Documents\Laboratornie\Laboratornie\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student\Documents\Laboratornie\Laboratornie\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Change.baml
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Filtr.baml
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\MainPage.baml
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\MainWindow.baml
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Poisk.baml
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Sortirovka.baml
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Sprav.baml
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Uchet.baml
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Vicheslenia.baml
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Laboratornie.g.resources
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Laboratornie.Properties.Resources.resources
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Laboratornie.csproj.GenerateResource.cache
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Laboratornie.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Laboratornie.csproj.CopyComplete
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Laboratornie.exe
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Laboratornie.pdb
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Add_Sprav.g.cs
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Add_Uchet.g.cs
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Add_Sprav.baml
+C:\Users\student\Documents\Laboratornie\Laboratornie\obj\Debug\Add_Uchet.baml
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\bin\Debug\Database1.mdf
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\bin\Debug\Database1_log.ldf
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\bin\Debug\Laboratornie.exe.config
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\bin\Debug\Laboratornie.exe
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\bin\Debug\Laboratornie.pdb
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\bin\Debug\EntityFramework.dll
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\bin\Debug\EntityFramework.xml
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Laboratornie.csproj.AssemblyReference.cache
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Add_Sprav.g.cs
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Add_Uchet.g.cs
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Change.g.cs
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Filtr.g.cs
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\MainPage.g.cs
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\MainWindow.g.cs
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Poisk.g.cs
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Sortirovka.g.cs
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Sprav.g.cs
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Uchet.g.cs
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Vicheslenia.g.cs
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\App.g.cs
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Laboratornie_Content.g.cs
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Laboratornie_MarkupCompile.cache
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Laboratornie_MarkupCompile.lref
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Add_Sprav.baml
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Add_Uchet.baml
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Change.baml
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Filtr.baml
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\MainPage.baml
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\MainWindow.baml
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Poisk.baml
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Sortirovka.baml
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Sprav.baml
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Uchet.baml
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Vicheslenia.baml
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Laboratornie.g.resources
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Laboratornie.Properties.Resources.resources
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Laboratornie.csproj.GenerateResource.cache
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Laboratornie.csproj.CoreCompileInputs.cache
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Laboratornie.csproj.CopyComplete
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Laboratornie.exe
+C:\Users\k2511\Downloads\Laboratornie\Laboratornie\obj\Debug\Laboratornie.pdb
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Laboratornie.csproj.AssemblyReference.cache
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Add_Sprav.g.cs
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Add_Uchet.g.cs
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Change.g.cs
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Filtr.g.cs
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\MainPage.g.cs
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\MainWindow.g.cs
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Poisk.g.cs
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Sortirovka.g.cs
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Sprav.g.cs
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Uchet.g.cs
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Vicheslenia.g.cs
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\App.g.cs
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Laboratornie_Content.g.cs
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Laboratornie_MarkupCompile.cache
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Laboratornie_MarkupCompile.lref
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Laboratornie.exe
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Laboratornie.pdb
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\bin\Debug\Database1.mdf
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\bin\Debug\Database1_log.ldf
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\bin\Debug\Laboratornie.exe.config
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\bin\Debug\Laboratornie.exe
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\bin\Debug\Laboratornie.pdb
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\bin\Debug\EntityFramework.dll
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\bin\Debug\EntityFramework.SqlServer.dll
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\bin\Debug\EntityFramework.xml
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\bin\Debug\EntityFramework.SqlServer.xml
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\bin\Debug\ru\EntityFramework.resources.dll
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Add_Sprav.baml
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Add_Uchet.baml
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Change.baml
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Filtr.baml
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\MainPage.baml
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\MainWindow.baml
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Poisk.baml
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Sortirovka.baml
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Sprav.baml
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Uchet.baml
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Vicheslenia.baml
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Laboratornie.g.resources
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Laboratornie.Properties.Resources.resources
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Laboratornie.csproj.GenerateResource.cache
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Laboratornie.csproj.CoreCompileInputs.cache
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\obj\Debug\Laboratornie.csproj.CopyComplete
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\bin\Debug\BouncyCastle.Crypto.dll
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\bin\Debug\itextsharp.dll
+D:\Моё\11.01 и 01.01\Laboratornie\Laboratornie\bin\Debug\itextsharp.xml

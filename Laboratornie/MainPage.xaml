@@ -1,0 +1,48 @@
+﻿<Page x:Class="Laboratornie.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Laboratornie"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="515"
+      Title="MainPage">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Menu   Margin="0,0,-73,0">
+            <Menu.Background>
+                <ImageBrush ImageSource="/1614374192_29-p-fon-tekhnologii-svetlii-36.jpg"/>
+            </Menu.Background>
+            <MenuItem Header="Ввод/редактирование" >
+                <MenuItem x:Name="Spr" Header="Справочная" Click="Spr_Click"/>
+                <MenuItem x:Name="Uch" Header="Учетная" Click="Uch_Click" />
+            </MenuItem>
+            <MenuItem Header="Выборка/фильтрация">
+                <MenuItem x:Name="Change" Header="Выборка" Click="Change_Click"/>
+                <MenuItem x:Name="Filtr" Header="Фильрация" Click="Filtr_Click"/>
+            </MenuItem>
+            <MenuItem Header="Поиск" x:Name="Poisk" Click="Poisk_Click" />
+            <MenuItem Header="Сортировка" x:Name="Sort" Click="Sort_Click" />
+            <MenuItem Header="Вычисления" x:Name="Vichesl" Click="Vichesl_Click"/>
+            <MenuItem Header="Отчёт" >
+                <MenuItem Header="Отчёт Excel">
+                    <MenuItem x:Name="Perv" Header="За 1 месяц" Click="Perv_Click"/>
+                    <MenuItem x:Name="Vt" Header="За 2 месяц" Click="Vt_Click"/>
+                </MenuItem>
+                <MenuItem Header="Отчёт PDF" >
+                    <MenuItem x:Name="Za_perv" Header="За 1 месяц" Click="Za_perv_Click"/>
+                    <MenuItem x:Name="Za_vt" Header="За 2 месяц" Click="Za_vt_Click"/>
+                </MenuItem>
+                <MenuItem Header="Отчёт с группировкой по месяцу" Click="MenuItem_Click" />
+            </MenuItem>
+            <MenuItem Header="Выход" x:Name="Exit" Click="Exit_Click" Cursor="Hand" />
+        </Menu>
+
+    </Grid>
+</Page>

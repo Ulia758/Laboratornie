@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratornie", "Laboratornie\Laboratornie.csproj", "{7541DAC7-0A17-4C29-9269-7A8A8315E982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaboratornieTests", "LaboratornieTests\LaboratornieTests.csproj", "{62817AFA-ECC9-4220-A8E9-91600867C52C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7541DAC7-0A17-4C29-9269-7A8A8315E982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7541DAC7-0A17-4C29-9269-7A8A8315E982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7541DAC7-0A17-4C29-9269-7A8A8315E982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7541DAC7-0A17-4C29-9269-7A8A8315E982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62817AFA-ECC9-4220-A8E9-91600867C52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62817AFA-ECC9-4220-A8E9-91600867C52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62817AFA-ECC9-4220-A8E9-91600867C52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62817AFA-ECC9-4220-A8E9-91600867C52C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DA7D7A7-58AE-4B3B-AF29-65C54C04F52E}
+	EndGlobalSection
+EndGlobal
